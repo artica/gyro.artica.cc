@@ -2426,8 +2426,15 @@ display: inline-block;
 }
 
 .discover-explore-learn {
-background-image: url('gfx/gabriel_ipad.png');
-background-size:     cover;
+	background-image: url('gfx/gabriel_ipad.png');
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.creativity-enabler {
+	background-image: url('gfx/gabriel_ipad2.png');
+	background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
 }
