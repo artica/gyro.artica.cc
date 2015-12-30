@@ -1631,10 +1631,6 @@ div.sb-message a:visited {
 	 padding: 30px;
 }
 
-.what-can-gyro-do header {
-	text-align: left;
-}
-
 .floatleft {
 	float: left;
 	overflow: hidden;
@@ -1643,26 +1639,45 @@ div.sb-message a:visited {
 	display: block;
 }
 
+.what-can-gyro-do {
+	text-align: left;
+	padding-left: 2.5em;
+}
+
+.what-can-gyro-do header {
+	text-align: left;
+	margin-left: 0em;
+}
+
+.what-can-gyro-do .content {
+	margin-left: 5em;
+}
+
+.what-can-gyro-do .content h3 {
+	margin-bottom: 0em;
+}
+
 .stores>div:nth-child(2) {
-    margin-left: 40px;
-}
-
-.content {
-	margin-left: 80px;
-}
-
-.content h3 {
-	margin-bottom: 0px;
+    margin-left: 2em;
 }
 
 .other-features {
 	background-color: #FFE16C;
+	padding-left: 1.5em;
 }
 
 .other-features header {
 	text-align: left;
+	margin-left: 0em;
 }
 
+.other-features .content {
+	margin-left: 8.5em;
+}
+
+.other-features .content h3 {
+	margin-bottom: 0em;
+}
 .sensor-actuators {
 	background-image: url('../gfx/gyro_open2.png');
     background-repeat:   no-repeat;
