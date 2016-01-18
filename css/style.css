@@ -1416,19 +1416,19 @@ section.buy .h2 {
 }
 
 .discover-explore-learn {
-	background-image: url('../gfx/gabriel_ipad.png');
+	background-image: url('../gfx/gabriel_ipad.jpg');
 	background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
 }
-
+/*
 .creativity-enabler {
 	background-image: url('../gfx/gabriel_ipad2.png');
 	background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
 }
-
+*/
 .bubble {
 	 background: rgba(255,255,255,0.7); 
 	 border-radius: 20px 20px 20px 20px;
@@ -1446,6 +1446,7 @@ section.buy .h2 {
 .what-can-gyro-do {
 	text-align: left;
 	padding-left: 2.5em;
+	background-color: #a8ffca;
 }
 
 .what-can-gyro-do header {
@@ -1469,7 +1470,7 @@ section.buy .h2 {
 }
 
 .other-features {
-	background-color: #FFE16C;
+	/*background-color: #FFE16C;*/
 	padding-left: 1.5em;
 }
 
@@ -1486,9 +1487,10 @@ section.buy .h2 {
 	margin-bottom: 0em;
 }
 .sensor-actuators {
-	background-image: url('../gfx/gyro_open2.png');
+	/*background-image: url('../gfx/gyro_open2.png');
     background-repeat:   no-repeat;
-    background-position: center right;
+    background-position: center right;*/
+	background-color: #FFE16C;
 	padding-left: 3em;
 }
 .sensor-actuators li {
@@ -1511,7 +1513,7 @@ section.buy .h2 {
 }
 
 .ecosystem {
-	background-color: #F1F1F1;
+	/*background-color: #F1F1F1;*/
 }
 
 .guiexception {
@@ -1520,6 +1522,22 @@ section.buy .h2 {
 
 .subscribe {
     background-color: #61B3FF;
+}
+
+.play-learn {
+	background-image: url('../gfx/3gyros.jpg');
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+	padding-top: 5em;
+}
+
+.education {
+	background-image: url('../gfx/3gyros.jpg');
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+	padding-top: 5em;
 }
 
 
