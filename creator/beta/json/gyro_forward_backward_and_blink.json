@@ -1,0 +1,320 @@
+{
+  "devices": [
+    {
+      "id": 11111111,
+      "name": "Debug LED",
+      "type": "device_output_digital",
+      "img_id": "device_led_blue",
+      "config": {
+        "pin": 13,
+        "initial_state": 0
+      }
+    },
+    {
+      "id": 22222222,
+      "name": "Left Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_left",
+      "config": {
+        "pin": 8,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 33333333,
+      "name": "Right Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_right",
+      "config": {
+        "pin": 7,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 66666666,
+      "name": "Red LED",
+      "type": "device_output_analog",
+      "img_id": "device_led_red",
+      "config": {
+        "pin": 10,
+        "initial_value": 28
+      }
+    },
+    {
+      "id": 738417967,
+      "name": "Test Knob",
+      "type": "device_input_analog",
+      "img_id": "device_knob",
+      "config": {
+        "pin": 14
+      }
+    },
+    {
+      "id": 3065622347,
+      "name": "Left Motor",
+      "type": "device_gyro_motor",
+      "img_id": "device_bot_motor_left",
+      "config": {
+        "motor_position": 1,
+        "initial_speed": 0
+      }
+    },
+    {
+      "id": 3995356827,
+      "name": "Right Motor",
+      "type": "device_gyro_motor",
+      "img_id": "device_bot_motor_right",
+      "config": {
+        "motor_position": 2,
+        "initial_speed": 0
+      }
+    }
+  ],
+  "variables": [
+    {
+      "id": 3958635324,
+      "name": "contador",
+      "type": "variable_byte",
+      "data": {
+        "initial_value": 0
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "",
+      "type": "node_root",
+      "id": 0,
+      "x": 424.08112242599975,
+      "y": 135.91887757400048,
+      "data": {
+        "tags": "",
+        "description": ""
+      },
+      "img_id": "node_root"
+    },
+    {
+      "name": "",
+      "type": "node_parallel",
+      "id": 1,
+      "x": 424.08112242599975,
+      "y": 275.9188775740007,
+      "data": {
+        "success_policy": 1,
+        "failure_policy": 0
+      },
+      "img_id": "node_parallel"
+    },
+    {
+      "name": "move back and forth",
+      "type": "node_sequence",
+      "id": 2,
+      "x": 144.0811224259993,
+      "y": 485.9188775740007,
+      "data": {
+        "run_count": 0
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "backward",
+      "type": "node_sequence",
+      "id": 3,
+      "x": -135.91887757400067,
+      "y": 695.9188775740006,
+      "data": {
+        "repeat_count": 1,
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 4,
+      "x": -205.91887757400067,
+      "y": 905.9188775740006,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 3065622347,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 5,
+      "x": -65.91887757400059,
+      "y": 905.9188775740006,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 3995356827,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 6,
+      "x": 74.08112242599937,
+      "y": 695.9188775740006,
+      "data": {
+        "source_1": 0,
+        "value_1": 5000,
+        "source_2": 0
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "forward",
+      "type": "node_sequence",
+      "id": 7,
+      "x": 284.0811224259997,
+      "y": 695.9188775740006,
+      "data": {
+        "repeat_count": 1,
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 8,
+      "x": 214.08112242599933,
+      "y": 905.9188775740006,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 100,
+        "source_2": 2,
+        "value_2": 3065622347,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 9,
+      "x": 354.08112242599975,
+      "y": 905.9188775740006,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 100,
+        "source_2": 2,
+        "value_2": 3995356827,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 10,
+      "x": 494.0811224259998,
+      "y": 695.9188775740006,
+      "data": {
+        "source_1": 0,
+        "value_1": 5000,
+        "source_2": 0
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "blink led",
+      "type": "node_sequence",
+      "id": 11,
+      "x": 844.0811224259991,
+      "y": 485.9188775740007,
+      "data": {
+        "repeat_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 12,
+      "x": 634.0811224259991,
+      "y": 695.9188775740006,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 1,
+        "source_2": 2,
+        "value_2": 11111111,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 13,
+      "x": 774.0811224259991,
+      "y": 695.9188775740006,
+      "data": {
+        "source_1": 0,
+        "value_1": 200,
+        "source_2": 0
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 14,
+      "x": 914.0811224259991,
+      "y": 695.9188775740006,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 11111111,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 15,
+      "x": 1054.081122426,
+      "y": 695.9188775740006,
+      "data": {
+        "source_1": 0,
+        "value_1": 200,
+        "source_2": 0
+      },
+      "img_id": "node_delay_time"
+    }
+  ],
+  "connections": [
+    "0:1",
+    "1:2",
+    "1:11",
+    "2:3",
+    "2:6",
+    "2:7",
+    "2:10",
+    "3:4",
+    "3:5",
+    "7:8",
+    "7:9",
+    "11:12",
+    "11:13",
+    "11:14",
+    "11:15"
+  ]
+}

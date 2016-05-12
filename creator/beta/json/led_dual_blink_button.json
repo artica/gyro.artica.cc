@@ -1,0 +1,437 @@
+{
+  "devices": [
+    {
+      "id": 11111111,
+      "name": "Debug LED",
+      "type": "device_output_digital",
+      "img_id": "device_led_blue",
+      "config": {
+        "pin": 13,
+        "initial_state": 0
+      }
+    },
+    {
+      "id": 22222222,
+      "name": "Left Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_left",
+      "config": {
+        "pin": 8,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 33333333,
+      "name": "Right Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_right",
+      "config": {
+        "pin": 7,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 44444444,
+      "name": "Left Motor",
+      "type": "device_motor",
+      "img_id": "device_bot_motor_left",
+      "config": {
+        "pin_1": 3,
+        "pin_2": 5,
+        "initial_speed": 1
+      }
+    },
+    {
+      "id": 55555555,
+      "name": "Right Motor",
+      "type": "device_motor",
+      "img_id": "device_bot_motor_right",
+      "config": {
+        "pin_1": 6,
+        "pin_2": 11,
+        "initial_speed": 0
+      }
+    },
+    {
+      "id": 66666666,
+      "name": "Red LED",
+      "type": "device_output_analog",
+      "img_id": "device_led_red",
+      "config": {
+        "pin": 10,
+        "initial_value": 28
+      }
+    },
+    {
+      "id": 738417967,
+      "name": "Test Knob",
+      "type": "device_input_analog",
+      "img_id": "device_knob",
+      "config": {
+        "pin": 14
+      }
+    }
+  ],
+  "variables": [],
+  "nodes": [
+    {
+      "name": "",
+      "type": "node_root",
+      "id": 0,
+      "x": -60,
+      "y": 240,
+      "data": {},
+      "img_id": "node_root"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 1,
+      "x": -60,
+      "y": 360,
+      "data": {},
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_parallel",
+      "id": 2,
+      "x": -420,
+      "y": 540,
+      "data": {
+        "success_policy": 0,
+        "failure_policy": 0
+      },
+      "img_id": "node_parallel"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 3,
+      "x": -660,
+      "y": 720,
+      "data": {},
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_status_override",
+      "id": 4,
+      "x": -720,
+      "y": 900,
+      "data": {
+        "failure_override": 1,
+        "running_override": 1,
+        "success_override": 2
+      },
+      "img_id": "node_status_override"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 5,
+      "x": -720,
+      "y": 1020,
+      "data": {
+        "test": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 22222222,
+        "source_3": 0
+      },
+      "img_id": "node_test_equal"
+    },
+    {
+      "name": "",
+      "type": "node_status_override",
+      "id": 6,
+      "x": -600,
+      "y": 900,
+      "data": {
+        "failure_override": 1,
+        "running_override": 1,
+        "success_override": 2
+      },
+      "img_id": "node_status_override"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 7,
+      "x": -600,
+      "y": 1020,
+      "data": {
+        "test": 0,
+        "source_1": 0,
+        "value_1": 1,
+        "source_2": 2,
+        "value_2": 22222222,
+        "source_3": 0
+      },
+      "img_id": "node_test_equal"
+    },
+    {
+      "name": "",
+      "type": "node_status_override",
+      "id": 8,
+      "x": -300,
+      "y": 720,
+      "data": {
+        "failure_override": 0,
+        "running_override": 1,
+        "success_override": 1
+      },
+      "img_id": "node_status_override"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 9,
+      "x": -300,
+      "y": 840,
+      "data": {},
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 10,
+      "x": -480,
+      "y": 1020,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 1,
+        "source_2": 2,
+        "value_2": 11111111,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 11,
+      "x": -360,
+      "y": 1020,
+      "data": {
+        "source_1": 0,
+        "value_1": 1000
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 12,
+      "x": -240,
+      "y": 1020,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 11111111,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 13,
+      "x": -120,
+      "y": 1020,
+      "data": {
+        "source_1": 0,
+        "value_1": 1000
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "",
+      "type": "node_parallel",
+      "id": 14,
+      "x": 300,
+      "y": 540,
+      "data": {
+        "success_policy": 0,
+        "failure_policy": 0
+      },
+      "img_id": "node_parallel"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 15,
+      "x": 60,
+      "y": 720,
+      "data": {},
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_status_override",
+      "id": 16,
+      "x": 0,
+      "y": 900,
+      "data": {
+        "failure_override": 1,
+        "running_override": 1,
+        "success_override": 2
+      },
+      "img_id": "node_status_override"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 17,
+      "x": 0,
+      "y": 1020,
+      "data": {
+        "test": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 22222222,
+        "source_3": 0
+      },
+      "img_id": "node_test_equal"
+    },
+    {
+      "name": "",
+      "type": "node_status_override",
+      "id": 18,
+      "x": 120,
+      "y": 900,
+      "data": {
+        "failure_override": 1,
+        "running_override": 1,
+        "success_override": 2
+      },
+      "img_id": "node_status_override"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 19,
+      "x": 120,
+      "y": 1020,
+      "data": {
+        "test": 0,
+        "source_1": 0,
+        "value_1": 1,
+        "source_2": 2,
+        "value_2": 22222222,
+        "source_3": 0
+      },
+      "img_id": "node_test_equal"
+    },
+    {
+      "name": "",
+      "type": "node_status_override",
+      "id": 20,
+      "x": 420,
+      "y": 720,
+      "data": {
+        "failure_override": 0,
+        "running_override": 1,
+        "success_override": 1
+      },
+      "img_id": "node_status_override"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 21,
+      "x": 420,
+      "y": 840,
+      "data": {},
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 22,
+      "x": 240,
+      "y": 1020,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 1,
+        "source_2": 2,
+        "value_2": 11111111,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 23,
+      "x": 360,
+      "y": 1020,
+      "data": {
+        "source_1": 0,
+        "value_1": 1000
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 24,
+      "x": 480,
+      "y": 1020,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 11111111,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 25,
+      "x": 600,
+      "y": 1020,
+      "data": {
+        "source_1": 0,
+        "value_1": 1000
+      },
+      "img_id": "node_delay_time"
+    }
+  ],
+  "connections": [
+    "0:1",
+    "1:2",
+    "1:14",
+    "2:3",
+    "2:8",
+    "3:4",
+    "3:6",
+    "4:5",
+    "6:7",
+    "8:9",
+    "9:10",
+    "9:11",
+    "9:12",
+    "9:13",
+    "14:15",
+    "14:20",
+    "15:16",
+    "15:18",
+    "16:17",
+    "18:19",
+    "20:21",
+    "21:22",
+    "21:23",
+    "21:24",
+    "21:25"
+  ]
+}

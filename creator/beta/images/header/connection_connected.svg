@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>connection_connected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="connection_connected" sketch:type="MSLayerGroup">
+            <g id="Oval-22-+-Oval-22-+-Rectangle-83" transform="translate(12.000000, 12.000000) rotate(-45.000000) translate(-12.000000, -12.000000) translate(1.586366, 7.465031)" fill="#000000" sketch:type="MSShapeGroup">
+                <circle id="Oval-22" cx="16.2969081" cy="4.48787177" r="4.30303945"></circle>
+                <circle id="Oval-22" cx="4.30303945" cy="4.48787177" r="4.30303945"></circle>
+                <path d="M15.6788404,5.50423105 L3.30956643,5.50423105 L3.30956643,3.09071418 L15.6788404,3.09071418 L15.6788404,5.50423105 L15.6788404,5.50423105 Z" id="Rectangle-83"></path>
+            </g>
+            <g id="Rectangle-192" stroke="#E8E8E8" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-190" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

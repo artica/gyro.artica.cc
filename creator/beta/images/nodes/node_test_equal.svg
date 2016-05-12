@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>node_test_equal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="node_test_equal" sketch:type="MSLayerGroup">
+            <g id="test_bg" fill="#2CF2FF" sketch:type="MSShapeGroup">
+                <circle id="Oval-35" cx="17.5" cy="17.5" r="17.5"></circle>
+            </g>
+            <path d="M11.4980469,17.21875 L11.4980469,15.7070312 L17.5039062,15.7070312 L17.5039062,17.21875 L11.4980469,17.21875 Z M11.4980469,19.8203125 L11.4980469,18.3027344 L17.5039062,18.3027344 L17.5039062,19.8203125 L11.4980469,19.8203125 Z M18.5058594,17.21875 L18.5058594,15.7070312 L24.5117188,15.7070312 L24.5117188,17.21875 L18.5058594,17.21875 Z M18.5058594,19.8203125 L18.5058594,18.3027344 L24.5117188,18.3027344 L24.5117188,19.8203125 L18.5058594,19.8203125 Z" id="==" fill="#000000" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>device_output_stepper_motor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="device_output_stepper_motor" sketch:type="MSLayerGroup">
+            <g id="Oval-26" fill="#B1B1B1" sketch:type="MSShapeGroup">
+                <path d="M14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 Z"></path>
+            </g>
+            <g id="Path-87-+-Rectangle-107-+-Rectangle-108" transform="translate(7.000000, 5.000000)" sketch:type="MSShapeGroup">
+                <path d="M5.40407783,3.04364697 C4.43107501,3.04265692 3.84000925,3.02591668 3.168167,3.02490602 C2.98954401,3.01571111 1.49594693,6.82319033 1.01821752,7.89474856 C0.485724159,7.95501046 11.7867637,8.03646669 13.9417226,7.98216894 C14.4056594,7.93036684 11.953118,3.04374319 11.7604104,3.0284971 C10.8289042,3.01411123 10.7677352,3.00288827 9.21500538,3 C8.61858937,3.0614102 10.5781363,2.83012998 10.5938084,4.36931698 C10.6094805,5.90850398 8.71700081,6.26731553 7.44460114,6.26731553 C6.17220147,6.26731553 4.39469842,5.80785298 4.39689767,4.34713897 C4.39909692,2.88642496 6.37708065,3.04463702 5.40407783,3.04364697 Z" id="Path-87" stroke="#000000"></path>
+                <rect id="Rectangle-107" fill="#000000" x="6" y="1" width="1" height="5" rx="8"></rect>
+                <path d="M0.00455412229,13.8067064 C-0.00569265286,12.9824273 0.00455412229,8 0.00455412229,8 L12.9851429,8 C12.9851429,8 13.0185713,13.0808506 12.9851429,13.7645438 C12.9517145,14.4482369 12.8364254,14.9842291 12.3520225,14.9958106 C11.9450292,15.0055414 1.47932683,14.9507778 0.818561985,14.9965561 C0.157797138,15.0423344 0.0148008974,14.6309854 0.00455412229,13.8067064 Z" id="Rectangle-108" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

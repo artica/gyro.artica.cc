@@ -1,0 +1,356 @@
+{
+  "devices": [
+    {
+      "id": 2560131808,
+      "name": "Left Motor",
+      "type": "device_gyro_motor",
+      "img_id": "device_bot_motor_left",
+      "config": {
+        "initial_speed": 0,
+        "motor_position": 1
+      }
+    },
+    {
+      "id": 1181148661,
+      "name": "Right Motor",
+      "type": "device_gyro_motor",
+      "img_id": "device_bot_motor_right",
+      "config": {
+        "initial_speed": 0,
+        "motor_position": 2
+      }
+    },
+    {
+      "id": 1305439056,
+      "name": "Left Radar",
+      "type": "device_gyro_distance_sensor",
+      "img_id": "device_bot_bumper_left",
+      "config": {
+        "data_mode": 2,
+        "position": 1,
+        "threshold": 0
+      }
+    },
+    {
+      "id": 475039112,
+      "name": "Right Radar",
+      "type": "device_gyro_distance_sensor",
+      "img_id": "device_bot_bumper_right",
+      "config": {
+        "data_mode": 2,
+        "position": 2,
+        "threshold": 0
+      }
+    }
+  ],
+  "variables": [],
+  "nodes": [
+    {
+      "name": "Gyro Keep Distance",
+      "type": "node_root",
+      "id": 0,
+      "x": 420,
+      "y": -280,
+      "data": {
+        "tags": "gyro robot automonous",
+        "description": "Keep a constant distance from a object in front of the robot."
+      },
+      "img_id": "node_root"
+    },
+    {
+      "name": "",
+      "type": "node_parallel",
+      "id": 1,
+      "x": 420,
+      "y": -140,
+      "data": {
+        "success_policy": 0,
+        "failure_policy": 1
+      },
+      "img_id": "node_parallel"
+    },
+    {
+      "name": "move away",
+      "type": "node_sequence",
+      "id": 2,
+      "x": 0,
+      "y": 70,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "is it close?",
+      "type": "node_test",
+      "id": 3,
+      "x": -350,
+      "y": 280,
+      "data": {
+        "override": 1,
+        "test": 2,
+        "source_1": 2,
+        "value_1": 1305439056,
+        "source_2": 0,
+        "value_2": 140,
+        "source_3": 0
+      },
+      "img_id": "node_test_bigger"
+    },
+    {
+      "name": "move back",
+      "type": "node_sequence",
+      "id": 4,
+      "x": -140,
+      "y": 280,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 5,
+      "x": -210,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -90,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 6,
+      "x": -70,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -90,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "is it close?",
+      "type": "node_test",
+      "id": 7,
+      "x": 70,
+      "y": 280,
+      "data": {
+        "override": 1,
+        "test": 3,
+        "source_1": 2,
+        "value_1": 1305439056,
+        "source_2": 0,
+        "value_2": 130,
+        "source_3": 0
+      },
+      "img_id": "node_test_smaller"
+    },
+    {
+      "name": "stop",
+      "type": "node_sequence",
+      "id": 8,
+      "x": 280,
+      "y": 280,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 9,
+      "x": 210,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 10,
+      "x": 350,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "move closer",
+      "type": "node_sequence",
+      "id": 11,
+      "x": 840,
+      "y": 70,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "is it far?",
+      "type": "node_test",
+      "id": 12,
+      "x": 490,
+      "y": 280,
+      "data": {
+        "override": 1,
+        "test": 3,
+        "source_1": 2,
+        "value_1": 1305439056,
+        "source_2": 0,
+        "value_2": 60,
+        "source_3": 0
+      },
+      "img_id": "node_test_smaller"
+    },
+    {
+      "name": "move forward",
+      "type": "node_sequence",
+      "id": 13,
+      "x": 700,
+      "y": 280,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 14,
+      "x": 630,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 90,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 15,
+      "x": 770,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 90,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "is it close?",
+      "type": "node_test",
+      "id": 16,
+      "x": 910,
+      "y": 280,
+      "data": {
+        "override": 1,
+        "test": 2,
+        "source_1": 2,
+        "value_1": 1305439056,
+        "source_2": 0,
+        "value_2": 70,
+        "source_3": 0
+      },
+      "img_id": "node_test_bigger"
+    },
+    {
+      "name": "stop",
+      "type": "node_sequence",
+      "id": 17,
+      "x": 1120,
+      "y": 280,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 18,
+      "x": 1050,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 19,
+      "x": 1190,
+      "y": 490,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    }
+  ],
+  "connections": [
+    "0:1",
+    "1:2",
+    "1:11",
+    "2:3",
+    "2:4",
+    "2:7",
+    "2:8",
+    "4:5",
+    "4:6",
+    "8:9",
+    "8:10",
+    "11:12",
+    "11:13",
+    "11:16",
+    "11:17",
+    "13:14",
+    "13:15",
+    "17:18",
+    "17:19"
+  ]
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="auto_disarrange.svg">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>connection_disconnected</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Oval-22-+-Oval-22" />
+  <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">connection_disconnected</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="Workplaces"
+     sketch:type="MSPage"
+     stroke-width="1"
+     stroke="none"
+     fill-rule="evenodd"
+     fill="none">
+    <g
+       id="connection_disconnected"
+       sketch:type="MSLayerGroup">
+      <g
+         id="Rectangle-192"
+         sketch:type="MSShapeGroup"
+         stroke="#E8E8E8">
+        <rect
+           id="Rectangle-190"
+           x="0"
+           y="0"
+           width="24"
+           height="24" />
+      </g>
+      <g
+         id="Oval-22-+-Oval-22"
+         transform="translate(1.000000, 1.000000)"
+         sketch:type="MSShapeGroup"
+         fill="#000000">
+        <circle
+           id="Oval-22"
+           transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+           cx="-4.5229616"
+           cy="19.84053"
+           r="2.9156377" />
+        <circle
+           id="circle16"
+           transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+           cx="-7.0817704"
+           cy="12.379403"
+           r="2.9156377" />
+        <circle
+           r="2.9156377"
+           cy="20.860231"
+           cx="4.526166"
+           transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+           id="circle4148" />
+        <circle
+           r="2.9156377"
+           cy="7.363677"
+           cx="1.8185985"
+           transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+           id="circle4150" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16967392px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 10.77056,14.686841 6.330494,3.8624 l 11.81496,7.959728"
+           id="path4152"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16967392px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 6.4321888,3.845145 3.752517,15.63477"
+           id="path4154"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+  </g>
+</svg>

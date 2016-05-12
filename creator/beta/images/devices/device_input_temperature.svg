@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>device_input_temperature</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="device_input_temperature" sketch:type="MSLayerGroup">
+            <g id="device_temperature" sketch:type="MSShapeGroup">
+                <g>
+                    <g id="Oval-26" fill="#B1B1B1">
+                        <path d="M14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 Z"></path>
+                    </g>
+                    <g id="Group" transform="translate(10.000000, 5.000000)">
+                        <rect id="Rectangle-101" stroke="#000000" fill="#FFFFFF" x="2" y="0" width="4" height="13" rx="8"></rect>
+                        <circle id="Oval-63" fill="#000000" cx="4" cy="14" r="3"></circle>
+                        <path d="M7,2.5 L5,2.5" id="Path-80" stroke="#000000"></path>
+                        <path d="M7,4.5 L5,4.5" id="Path-80" stroke="#000000"></path>
+                        <path d="M7,7.5 L5,7.5" id="Path-80" stroke="#000000"></path>
+                        <path d="M7,9.5 L5,9.5" id="Path-80" stroke="#000000"></path>
+                        <rect id="Rectangle-102" fill="#000000" x="2" y="7" width="3" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>device_digital_output</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="device_digital_output" sketch:type="MSLayerGroup">
+            <g id="Oval-26" fill="#B1B1B1" sketch:type="MSShapeGroup">
+                <path d="M14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 Z"></path>
+            </g>
+            <circle id="Oval-48" stroke="#000000" stroke-width="2" sketch:type="MSShapeGroup" cx="15" cy="14" r="6"></circle>
+            <polygon id="Triangle-3" fill="#000000" sketch:type="MSShapeGroup" transform="translate(25.000000, 14.000000) rotate(-270.000000) translate(-25.000000, -14.000000) " points="25 12 28 16 22 16 "></polygon>
+            <rect id="Rectangle-96" fill="#000000" sketch:type="MSShapeGroup" transform="translate(18.991716, 13.750000) rotate(-270.000000) translate(-18.991716, -13.750000) " x="18.241716" y="8.74171598" width="2" height="10"></rect>
+            <path d="M23,13 L15,13" id="Path-73" stroke="#B1B1B1" sketch:type="MSShapeGroup"></path>
+            <path d="M23,15 L15,15" id="Path-73" stroke="#B1B1B1" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

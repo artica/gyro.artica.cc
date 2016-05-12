@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>node_warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-1144.000000, -714.000000)">
+            <g id="node_warning" sketch:type="MSLayerGroup" transform="translate(1142.000000, 713.000000)">
+                <g id="Path-1247-+-Path-1248" transform="translate(2.000000, 17.550000)" sketch:type="MSShapeGroup">
+                    <path d="M18,0 L6,11.7" id="Path-1247" stroke="#FFC000"></path>
+                    <path d="M6,6.825 L11,11.7 L0,17.55 L6,6.825 Z" id="Path-1248" fill="#FFC000"></path>
+                </g>
+                <g id="Rectangle-654-+-Shape" transform="translate(17.000000, 1.950000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-654" fill="#FFC000" x="0" y="0" width="20" height="19.5" rx="4"></rect>
+                    <path d="M16.8275912,14.5820596 L10.8178433,4.41263864 C10.4138774,3.72912045 9.7529209,3.72912045 9.34912774,4.41263864 L3.33937988,14.5820596 C2.93558673,15.2654091 3.26597865,15.8245746 4.07373767,15.8245746 L16.0934061,15.8245746 C16.9009924,15.8245746 17.231557,15.2654091 16.8275912,14.5820596 L16.8275912,14.5820596 Z M10.1080102,14.4766045 C9.56069601,14.4766045 9.11700712,14.0431416 9.11700712,13.5086104 C9.11700712,12.9737419 9.56069601,12.5404477 10.1080102,12.5404477 C10.6553243,12.5404477 11.0988405,12.9737419 11.0988405,13.5086104 C11.0988405,14.0431416 10.6553243,14.4766045 10.1080102,14.4766045 L10.1080102,14.4766045 Z M11.2917562,8.15131944 L11.151344,10.7202072 C11.1225016,11.2447834 10.6584331,11.674703 10.1199271,11.674703 L10.096266,11.674703 C9.55775996,11.674703 9.08885559,11.2451208 9.05448654,10.7207134 L8.88575005,8.15081325 C8.85120829,7.62573091 9.26363689,7.19614876 9.80231561,7.19614876 L10.3650009,7.19614876 C10.9035069,7.19614876 11.3205986,7.62606836 11.2917562,8.15131944 L11.2917562,8.15131944 Z" id="Shape" fill="#000000"></path>
+                </g>
+                <rect id="Rectangle-660" sketch:type="MSShapeGroup" x="0" y="0.00011144135" width="39" height="38.025"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,244 @@
+{
+  "devices": [
+    {
+      "id": 11111111,
+      "name": "Debug LED",
+      "type": "device_output_digital",
+      "img_id": "device_led_blue",
+      "config": {
+        "pin": 13,
+        "initial_state": 0
+      }
+    },
+    {
+      "id": 22222222,
+      "name": "Left Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_left",
+      "config": {
+        "pin": 8,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 33333333,
+      "name": "Right Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_right",
+      "config": {
+        "pin": 7,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 44444444,
+      "name": "Left Motor",
+      "type": "device_motor",
+      "img_id": "device_bot_motor_left",
+      "config": {
+        "pin_1": 3,
+        "pin_2": 5,
+        "initial_speed": 1
+      }
+    },
+    {
+      "id": 55555555,
+      "name": "Right Motor",
+      "type": "device_motor",
+      "img_id": "device_bot_motor_right",
+      "config": {
+        "pin_1": 6,
+        "pin_2": 11,
+        "initial_speed": 0
+      }
+    },
+    {
+      "id": 66666666,
+      "name": "Red LED",
+      "type": "device_output_analog",
+      "img_id": "device_led_red",
+      "config": {
+        "pin": 10,
+        "initial_value": 28
+      }
+    },
+    {
+      "id": 738417967,
+      "name": "Test Knob",
+      "type": "device_input_analog",
+      "img_id": "device_knob",
+      "config": {
+        "pin": 14
+      }
+    }
+  ],
+  "variables": [],
+  "nodes": [
+    {
+      "name": "Farrusco Bump&Back",
+      "type": "node_root",
+      "id": 0,
+      "x": -770,
+      "y": 280,
+      "data": {
+        "tags": "farrusco robot automonous",
+        "description": "Make the Farrusco robot drive forward untill it bombs something, than it moves back for a bit."
+      },
+      "img_id": "node_root"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 1,
+      "x": -770,
+      "y": 420,
+      "data": {},
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 2,
+      "x": -1260,
+      "y": 630,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 255,
+        "source_2": 2,
+        "value_2": 44444444,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 3,
+      "x": -1120,
+      "y": 630,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 255,
+        "source_2": 2,
+        "value_2": 55555555,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 4,
+      "x": -980,
+      "y": 630,
+      "data": {
+        "source_1": 0,
+        "value_1": 1000
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "",
+      "type": "node_parallel",
+      "id": 5,
+      "x": -770,
+      "y": 630,
+      "data": {
+        "success_policy": 1,
+        "failure_policy": 0
+      },
+      "img_id": "node_parallel"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 6,
+      "x": -840,
+      "y": 840,
+      "data": {
+        "test": 0,
+        "source_1": 2,
+        "value_1": 22222222,
+        "source_2": 0,
+        "value_2": 1,
+        "source_3": 0
+      },
+      "img_id": "node_test_equal"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 7,
+      "x": -700,
+      "y": 840,
+      "data": {
+        "test": 0,
+        "source_1": 2,
+        "value_1": 33333333,
+        "source_2": 0,
+        "value_2": 1,
+        "source_3": 0
+      },
+      "img_id": "node_test_equal"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 8,
+      "x": -560,
+      "y": 630,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 44444444,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 9,
+      "x": -420,
+      "y": 630,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 2,
+        "value_2": 55555555,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 10,
+      "x": -280,
+      "y": 630,
+      "data": {
+        "source_1": 0,
+        "value_1": 1000,
+        "source_2": 0
+      },
+      "img_id": "node_delay_time"
+    }
+  ],
+  "connections": [
+    "0:1",
+    "1:2",
+    "1:3",
+    "1:4",
+    "1:5",
+    "1:8",
+    "1:9",
+    "1:10",
+    "5:6",
+    "5:7"
+  ]
+}

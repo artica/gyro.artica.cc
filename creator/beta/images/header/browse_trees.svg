@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>browse_trees</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="browse_trees" sketch:type="MSLayerGroup">
+            <g id="Rectangle-193" stroke="#E8E8E8" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-190" x="0" y="0" width="24" height="24"></rect>
+            </g>
+            <g id="Path-50-+-Path-50" transform="translate(3.461538, 5.375000)" fill="#000000" sketch:type="MSShapeGroup">
+                <path d="M0.0476111545,4.35019141 L16.8856287,4.35019141 L13.8491901,13.6755448 L3.22778319,13.6755448 L0.0476111545,4.35019141 Z" id="Path-50"></path>
+                <path d="M1.2900929,0.0768735286 L1.64793885,3.65428258 L15.2865264,3.6033368 L15.9089052,1.15198701 L8.49268643,1.15198701 L8.49268643,0.053446118 L1.2900929,0.0768735286 Z" id="Path-50"></path>
+            </g>
+        </g>
+    </g>
+</svg>

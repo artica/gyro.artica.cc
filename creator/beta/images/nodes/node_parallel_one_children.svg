@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="17px" viewBox="0 0 12 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>node_parallel_one_children</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="node_parallel_one_children" sketch:type="MSLayerGroup" transform="translate(-1.000000, 0.000000)">
+            <rect id="Rectangle-625" fill-opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0.0187340903" y="0" width="13.9625318" height="18"></rect>
+            <path d="M5.33804657,16.8512604 C5.33804657,14.8794211 2.18310361,14.0906853 2.18310361,11.7244781 C2.18310361,9.35827087 3.76057509,9.75263874 3.76057509,9.75263874 C3.76057509,9.75263874 3.76057509,3.83712069 3.76057509,2.25964921 C3.76057509,0.682177725 5.73241444,0.682177725 5.73241444,2.25964921 L5.73241444,7.38643152 C5.73241444,7.38643152 5.73241444,5.80896004 6.91551805,5.80896004 C8.09862166,5.80896004 8.09862166,7.38643152 8.09862166,7.38643152 C8.09862166,7.38643152 8.09862166,6.20332791 8.8873574,6.20332791 C9.67609314,6.20332791 10.070461,6.59769578 10.070461,8.17516726 C10.070461,7.38643152 11.6479325,6.20332791 12.0423004,8.963903 C12.4366682,11.7244781 12.0423004,12.5132138 11.6479325,13.6963174 C11.2535646,14.8794211 10.4648289,15.2737889 10.4648289,16.8512604" id="Path-1184" stroke="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

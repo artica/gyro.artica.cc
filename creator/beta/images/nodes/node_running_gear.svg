@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg4136"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="node_running_gear.svg">
+  <metadata
+     id="metadata4175">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>node_function</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview4173"
+     showgrid="false"
+     inkscape:zoom="12.588218"
+     inkscape:cx="15.500671"
+     inkscape:cy="22.806"
+     inkscape:window-x="284"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group" />
+  <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4138">node_function</title>
+  <desc
+     id="desc4140">Created with Sketch.</desc>
+  <defs
+     id="defs4142" />
+  <g
+     id="Workplaces"
+     sketch:type="MSPage"
+     style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       id="node_function"
+       sketch:type="MSLayerGroup"
+       transform="translate(0,-1)">
+      <g
+         id="Group"
+         transform="matrix(2.2493343,0,0,2.2493343,-0.91465566,0.04442751)"
+         sketch:type="MSShapeGroup">
+        <g
+           id="Path-87-+-Path-89"
+           style="fill:#333333"
+           transform="matrix(1.0387219,0,0,1.0387219,-0.01565841,-0.01595715)">
+          <path
+             d="M 5.8091592,0.48529463 C 6.2013488,0.4123862 6.7512969,0.41209587 6.7512969,0.41209587 L 7.5637844,1.7598563 8.50182,1.8464153 9.5537125,0.82633897 10.529595,1.251379 l -0.0059,1.6116147 0.295467,1.1205244 C 10.15344,3.4953633 9.4414362,2.5198815 7.4076481,2.4085738 5.3738601,2.2972661 4.2069076,3.115839 3.2931378,4.3567046 1.5196708,6.7650071 2.2516353,9.197701 3.6961424,10.67046 5.1406495,12.14322 7.5320963,12.537386 9.7102256,11.391956 11.888355,10.246525 11.996355,8.3143038 11.967153,6.8423037 12.264916,6.4129669 12.617698,6.1326639 12.617698,6.1326639 l 1.450653,0.7149393 -0.06722,0.9148954 -1.43533,0.6373323 -0.318236,0.9341216 0.931395,1.2424495 -0.533103,0.838494 -1.601523,-0.248792 -0.5961,0.545079 0.0046,1.645244 -0.8422678,0.39751 -1.2578078,-1.055062 -0.7601757,0.0079 L 6.6140069,14.093039 5.6358532,13.929141 5.2470153,12.385758 4.4791998,12.044678 2.9667139,12.722961 2.2914036,12.120285 2.6914941,10.514692 2.276538,9.865161 0.70052534,9.650269 0.40438083,8.6901798 1.6029212,7.6301337 1.655534,6.7830979 0.45616566,5.7401755 0.70210598,4.7918658 2.3208336,4.6429467 2.7319005,3.8892804 2.2725414,2.4738799 3.0299098,1.7756539 4.4966601,2.4236785 5.171836,2.1317393"
+             id="Path-87"
+             inkscape:connector-curvature="0"
+             style="fill:#333333" />
+          <path
+             d="m 10.396445,2.6821984 0.678697,0.6582243 1.66848,-0.1802307 0.487591,0.7957778 -0.86066,1.3272497 0.288091,0.9634388 -0.671584,0.9108259 c 0,0 0.02258,-2.2913283 -1.684287,-3.6101856 0.01648,-0.6773426 0.09367,-0.8651002 0.09367,-0.8651002 z"
+             id="Path-89"
+             inkscape:connector-curvature="0"
+             style="fill:#333333" />
+        </g>
+        <circle
+           id="Oval-56"
+           cx="7.6331124"
+           cy="7.6328135"
+           r="4.8158922"
+           style="stroke:#333333;stroke-width:1.03872192;fill:#333333;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

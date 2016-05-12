@@ -1,0 +1,458 @@
+{
+  "devices": [
+    {
+      "id": 2560131808,
+      "name": "Left Motor",
+      "type": "device_gyro_motor",
+      "img_id": "device_bot_motor_left",
+      "config": {
+        "initial_speed": 0,
+        "motor_position": 1
+      }
+    },
+    {
+      "id": 1181148661,
+      "name": "Right Motor",
+      "type": "device_gyro_motor",
+      "img_id": "device_bot_motor_right",
+      "config": {
+        "initial_speed": 0,
+        "motor_position": 2
+      }
+    },
+    {
+      "id": 1305439056,
+      "name": "Left Radar",
+      "type": "device_gyro_distance_sensor",
+      "img_id": "device_bot_bumper_left",
+      "config": {
+        "data_mode": 1,
+        "position": 1,
+        "threshold": 0
+      }
+    },
+    {
+      "id": 475039112,
+      "name": "Right Radar",
+      "type": "device_gyro_distance_sensor",
+      "img_id": "device_bot_bumper_right",
+      "config": {
+        "data_mode": 1,
+        "position": 2,
+        "threshold": 0
+      }
+    }
+  ],
+  "variables": [],
+  "nodes": [
+    {
+      "name": "Farrusco Bump&Back",
+      "type": "node_root",
+      "id": 0,
+      "x": 420,
+      "y": -280,
+      "data": {
+        "tags": "gyro robot automonous",
+        "description": "Make the Gyro robot drive forward until it approaches something, than it moves back and turns for a bit."
+      },
+      "img_id": "node_root"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 1,
+      "x": 420,
+      "y": -140,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "move front",
+      "type": "node_sequence",
+      "id": 2,
+      "x": -560,
+      "y": 70,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 3,
+      "x": -630,
+      "y": 280,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 150,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 4,
+      "x": -490,
+      "y": 280,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": 150,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_parallel",
+      "id": 5,
+      "x": 560,
+      "y": 70,
+      "data": {
+        "success_policy": 0,
+        "failure_policy": 1
+      },
+      "img_id": "node_parallel"
+    },
+    {
+      "name": "bump left side",
+      "type": "node_sequence",
+      "id": 6,
+      "x": 70,
+      "y": 280,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 7,
+      "x": -350,
+      "y": 490,
+      "data": {
+        "override": 1,
+        "test": 2,
+        "source_1": 2,
+        "value_1": 1305439056,
+        "source_2": 0,
+        "value_2": 100,
+        "source_3": 0
+      },
+      "img_id": "node_test_bigger"
+    },
+    {
+      "name": "back left",
+      "type": "node_sequence",
+      "id": 8,
+      "x": -140,
+      "y": 490,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 9,
+      "x": -210,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 10,
+      "x": -70,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 11,
+      "x": 70,
+      "y": 490,
+      "data": {
+        "function_type": 1,
+        "source_1": 0,
+        "value_1": 1000,
+        "source_2": 0,
+        "value_2": 88,
+        "min_in": 0,
+        "max_in": 1023,
+        "min_out": 0,
+        "max_out": 255
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "stop",
+      "type": "node_sequence",
+      "id": 12,
+      "x": 280,
+      "y": 490,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 13,
+      "x": 210,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 14,
+      "x": 350,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -200,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 15,
+      "x": 490,
+      "y": 490,
+      "data": {
+        "function_type": 1,
+        "source_1": 0,
+        "value_1": 1500,
+        "source_2": 0,
+        "value_2": 88,
+        "min_in": 0,
+        "max_in": 1023,
+        "min_out": 0,
+        "max_out": 255
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "bump right side",
+      "type": "node_sequence",
+      "id": 16,
+      "x": 1050,
+      "y": 280,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_test",
+      "id": 17,
+      "x": 630,
+      "y": 490,
+      "data": {
+        "override": 1,
+        "test": 2,
+        "source_1": 2,
+        "value_1": 475039112,
+        "source_2": 0,
+        "value_2": 100,
+        "source_3": 0
+      },
+      "img_id": "node_test_bigger"
+    },
+    {
+      "name": "back left",
+      "type": "node_sequence",
+      "id": 18,
+      "x": 840,
+      "y": 490,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 19,
+      "x": 770,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 20,
+      "x": 910,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 21,
+      "x": 1050,
+      "y": 490,
+      "data": {
+        "function_type": 1,
+        "source_1": 0,
+        "value_1": 1000,
+        "source_2": 0,
+        "value_2": 88,
+        "min_in": 0,
+        "max_in": 1023,
+        "min_out": 0,
+        "max_out": 255
+      },
+      "img_id": "node_delay_time"
+    },
+    {
+      "name": "stop",
+      "type": "node_sequence",
+      "id": 22,
+      "x": 1260,
+      "y": 490,
+      "data": {
+        "run_count": 1
+      },
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 23,
+      "x": 1190,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -200,
+        "source_2": 2,
+        "value_2": 2560131808,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 24,
+      "x": 1330,
+      "y": 700,
+      "data": {
+        "function_type": 0,
+        "source_1": 0,
+        "value_1": -100,
+        "source_2": 2,
+        "value_2": 1181148661,
+        "source_3": 0
+      },
+      "img_id": "node_function_copy"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 25,
+      "x": 1470,
+      "y": 490,
+      "data": {
+        "function_type": 1,
+        "source_1": 0,
+        "value_1": 1500,
+        "source_2": 0,
+        "value_2": 88,
+        "min_in": 0,
+        "max_in": 1023,
+        "min_out": 0,
+        "max_out": 255
+      },
+      "img_id": "node_delay_time"
+    }
+  ],
+  "connections": [
+    "0:1",
+    "1:2",
+    "1:5",
+    "2:3",
+    "2:4",
+    "5:6",
+    "5:16",
+    "6:7",
+    "6:8",
+    "6:11",
+    "6:12",
+    "6:15",
+    "8:9",
+    "8:10",
+    "12:13",
+    "12:14",
+    "16:17",
+    "16:18",
+    "16:21",
+    "16:22",
+    "16:25",
+    "18:19",
+    "18:20",
+    "22:23",
+    "22:24"
+  ]
+}

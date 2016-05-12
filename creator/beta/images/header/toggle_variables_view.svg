@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>toggle_labels_view</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="toggle_labels_view" sketch:type="MSLayerGroup">
+            <g id="Rectangle-190" stroke="#E8E8E8" sketch:type="MSShapeGroup">
+                <rect x="0" y="0" width="24" height="24"></rect>
+            </g>
+            <g id="Path-55-+-Oval-53" transform="translate(2.000000, 4.500000)" sketch:type="MSShapeGroup">
+                <path d="M9.77743429,0.426255135 C14.1180415,0.417493975 19.2411298,5.7297686 19.1926697,7.27857742 C19.1442095,8.82738624 14.9153071,14.1872997 10.0383526,14.1930492 C5.1613981,14.1987987 0.348509598,8.96044636 0.372876574,7.31444342 C0.39724355,5.66844048 5.43682707,0.435016295 9.77743429,0.426255135 Z" id="Path-55" fill="#000000"></path>
+                <circle id="Oval-53" stroke="#E5E5E5" cx="9.78289764" cy="7.30964911" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

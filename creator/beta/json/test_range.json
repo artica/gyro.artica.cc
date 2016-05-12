@@ -1,0 +1,125 @@
+{
+  "devices": [
+    {
+      "id": 11111111,
+      "name": "Debug LED",
+      "type": "device_output_digital",
+      "img_id": "device_led_blue",
+      "config": {
+        "pin": 13,
+        "initial_state": 0
+      }
+    },
+    {
+      "id": 22222222,
+      "name": "Left Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_left",
+      "config": {
+        "pin": 8,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 33333333,
+      "name": "Right Bumper",
+      "type": "device_input_digital",
+      "img_id": "device_bot_bumper_right",
+      "config": {
+        "pin": 7,
+        "active_type": 1
+      }
+    },
+    {
+      "id": 44444444,
+      "name": "Left Motor",
+      "type": "device_motor",
+      "img_id": "device_bot_motor_left",
+      "config": {
+        "pin_1": 3,
+        "pin_2": 5,
+        "initial_speed": 1
+      }
+    },
+    {
+      "id": 55555555,
+      "name": "Right Motor",
+      "type": "device_motor",
+      "img_id": "device_bot_motor_right",
+      "config": {
+        "pin_1": 6,
+        "pin_2": 11,
+        "initial_speed": 0
+      }
+    },
+    {
+      "id": 3124389380,
+      "name": "led",
+      "type": "device_output_analog",
+      "img_id": "device_led_blue",
+      "config": {
+        "pin": 10,
+        "initial_value": 0
+      }
+    }
+  ],
+  "variables": [],
+  "nodes": [
+    {
+      "name": "Farrusco Bump&Back",
+      "type": "node_root",
+      "id": 0,
+      "x": 281.9661856469493,
+      "y": 142.65066809167735,
+      "data": {
+        "tags": "farrusco robot automonous",
+        "description": "Make the Farrusco robot drive forward untill it bombs something, than it moves back for a bit."
+      },
+      "img_id": "node_root"
+    },
+    {
+      "name": "",
+      "type": "node_sequence",
+      "id": 1,
+      "x": 281.9661856469493,
+      "y": 282.65066809167723,
+      "data": {},
+      "img_id": "node_sequence"
+    },
+    {
+      "name": "",
+      "type": "node_function",
+      "id": 2,
+      "x": 211.96618564694904,
+      "y": 492.6506680916773,
+      "data": {
+        "function_type": 2,
+        "source_1": 0,
+        "value_1": 0,
+        "source_2": 0,
+        "value_2": 100,
+        "source_3": 2,
+        "value_3": 3124389380,
+        "source_4": 0
+      },
+      "img_id": "node_function_random"
+    },
+    {
+      "name": "",
+      "type": "node_delay_time",
+      "id": 3,
+      "x": 351.9661856469493,
+      "y": 492.6506680916773,
+      "data": {
+        "source_1": 0,
+        "value_1": 1000
+      },
+      "img_id": "node_delay_time"
+    }
+  ],
+  "connections": [
+    "0:1",
+    "1:2",
+    "1:3"
+  ]
+}

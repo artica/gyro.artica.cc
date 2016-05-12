@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32px"
+   height="33px"
+   viewBox="0 0 32 33"
+   version="1.1"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="button_close_window.svg">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>add</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="22.468362"
+     inkscape:cx="15.940678"
+     inkscape:cy="16.290254"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Oval-34-+-Rectangle-227-+-Rectangle-228" />
+  <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4">add</title>
+  <desc
+     id="desc6">Created with Sketch.</desc>
+  <defs
+     id="defs8" />
+  <g
+     id="g3348">
+    <g
+       sketch:type="MSPage"
+       fill-rule="evenodd"
+       fill="none"
+       stroke-width="1"
+       stroke="none"
+       id="Pages">
+      <g
+         transform="translate(-1119.000000, -544.000000)"
+         sketch:type="MSArtboardGroup"
+         id="2.07">
+        <g
+           transform="translate(1118.7203,543.16102)"
+           sketch:type="MSLayerGroup"
+           id="add">
+          <g
+             sketch:type="MSShapeGroup"
+             transform="translate(-0.47881356,1.8810295)"
+             id="Oval-34-+-Rectangle-227-+-Rectangle-228">
+            <rect
+               style="fill:#d8d8d8;fill-opacity:1;stroke:none;stroke-width:19.09225464;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+               id="rect3358"
+               width="31.755451"
+               height="32.829708"
+               x="0.91048086"
+               y="-0.97921568"
+               ry="0" />
+            <path
+               id="Oval-34"
+               d="m 60.734679,11.656281 c 8.071854,0 14.615384,-6.5435301 14.615384,-14.6153841 0,-8.0718539 -6.54353,-14.6153849 -14.615384,-14.6153849 -8.071854,0 -14.615385,6.543531 -14.615385,14.6153849 0,8.071854 6.543531,14.6153841 14.615385,14.6153841 z"
+               inkscape:connector-curvature="0"
+               style="fill:#d8d8d8" />
+            <g
+               transform="matrix(1.2451254,-1.2660519,1.2660519,1.2451254,-1.8533092,15.655643)"
+               id="Rectangle-227-+-Rectangle-228"
+               style="fill:#000000">
+              <rect
+                 height="3"
+                 width="15"
+                 y="6"
+                 x="0"
+                 id="Rectangle-227" />
+              <rect
+                 height="15"
+                 width="3"
+                 y="0"
+                 x="6"
+                 id="Rectangle-228" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+
+
+
+mudar a porta (warning na app qdo a porta tá usada?)
+
+
+
+
+
+constant read: "100"
+constant write: "100"
+
+
+device read : "the value read from the device X"
+device write : "the new value for device device X"
+
+
+variable read : "the value read from the device Bumper Right"
+variable write : "the new value for device Motor Left"
+
+
+
+This node hols the execution of his branch by "the value read from the device Knob" milliseconds.
+
+This node copies "100" to "the new value for the device Led"
+
+
+This node tests if "the value read from the device Knob" is less than "100"
+This node tests if "the value read from the device Knob" is between "the value read from the device OutroDevice" and "100"
+
+
+function_copy:
+This node uses "the value read from the device Knob" as "the new value for device Motor Left"
+
+
+function_map:
+This node maps "the value read from the device Knob", ranging from "100" to "200" to a value ranging from "0" to "1000", and sets the new value as "the new value for device Motor Left"
+
+
+function_random:
+This node generates a random number between "the value read from the device Knob" and "100", and and sets that number as "the new value for device Motor Left"
+
+
+function_range:
+This node generates a value that starts in "the value read from the device Knob" and goes up to "100", then moves back to the first value. The value increases or decreases at a rate "the new value for device Motor Left"
+
+

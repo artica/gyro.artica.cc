@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>device_output_differential_motor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="device_output_differential_motor" sketch:type="MSLayerGroup">
+            <g id="Oval-26" fill="#B1B1B1" sketch:type="MSShapeGroup">
+                <path d="M14,28 C21.7319865,28 28,21.7319865 28,14 C28,6.2680135 21.7319865,0 14,0 C6.2680135,0 0,6.2680135 0,14 C0,21.7319865 6.2680135,28 14,28 Z"></path>
+            </g>
+            <g id="Rectangle-94-+-Rectangle-94-+-Rectangle-94" transform="translate(10.000000, 12.000000)" fill="#000000" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-94" x="-7.57727214e-14" y="0" width="7" height="3"></rect>
+            </g>
+            <rect id="Rectangle-122" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup" x="5" y="8" width="6" height="12"></rect>
+            <rect id="Rectangle-123" stroke="#000000" fill="#FFFFFF" sketch:type="MSShapeGroup" x="17" y="8" width="6" height="12"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="74px" height="26px" viewBox="0 0 74 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>button_update</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Workplaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="button_update" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-405" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="73.7081442" height="26"></rect>
+            <g id="Rectangle-83-+-Rectangle-84-+-Triangle-1" transform="translate(55.500000, 5.000000)" fill="#000000" sketch:type="MSShapeGroup">
+                <rect id="Rectangle-83" x="0.625221252" y="11.9373009" width="5.81220605" height="3.41101371"></rect>
+                <rect id="Rectangle-84" x="3.5625727" y="5.25898109" width="3.12484196" height="10.0893335"></rect>
+                <polygon id="Triangle-1" points="5.12499368 0.617560863 9.37477875 6.03134956 0.875208609 6.03134956 "></polygon>
+            </g>
+            <text id="update" sketch:type="MSTextLayer" font-family="Open Sans" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="7" y="17.5">update</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
