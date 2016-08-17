@@ -70,7 +70,7 @@ h1 {
     margin: 0.67em 0
 }
 mark {
-    background: #ff0;
+    background: #6a78e6;
     color: #000
 }
 small {
@@ -91,9 +91,9 @@ textarea {
 button,
 .btn {
     overflow: visible;
-    border-radius: 25px 25px 25px 25px;
-    background-color: white;
-	box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.50);
+    border-radius: 5px 5px 5px 5px;
+    background-color: #6a78e6;
+	box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.50);
     padding: 10px 20px;
     cursor: pointer;
     border: 0px;
@@ -159,7 +159,7 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font: 300 16px/1.5 "Titillium", Helvetica, Arial, sans-serif;
-    color: #111418;
+    color: #fff;
     text-rendering: optimizeLegibility
 }
 @media screen and (max-width: 767px) {
@@ -364,15 +364,16 @@ small {
 *:after {
     box-sizing: border-box
 }
-*:last-child {
+/**:last-child {
     margin-bottom: 0 !important
-}
+}*/
 @media screen and (min-width: 768px) {
     .row {
         display: -webkit-box;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: -5.6% !important
+        margin-bottom: -5 !important
+
     }
     .row.center-h,
     .col.center-h {
@@ -514,20 +515,21 @@ body>section {
 }
 .wrapper {
     max-width: 62.5rem;
-    margin: 0 auto;
+    margin: 30 auto;
+
 }
 section {
 	padding: 0px
 }
 section .wrapper {
-    padding: 3.5rem 0
+    padding: 0rem 0
 }
 section .wrapper.extra {
     padding: 6rem 0
 }
 body>section {
-    background-color: white;
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.06)
+    background-color: #3e26d3;
+    box-shadow: inset -10 20px 0 rgba(0, 0, 0, 0.10)
 }
 .hero .masthead {
     text-align: center;
@@ -562,8 +564,8 @@ section .section-header {
     text-align: center;
     position: relative;
     border-width: 1px 0 0;
-    border-image: -webkit-linear-gradient(0deg, rgba(230, 230, 230, 0), #e6e6e6 50%, rgba(230, 230, 230, 0) 100%) 2%;
-    border-image: linear-gradient(90deg, rgba(230, 230, 230, 0), #e6e6e6 50%, rgba(230, 230, 230, 0) 100%) 2%
+    border-image: -webkit-linear-gradient(0deg, rgba(62, 38, 211, 0), #3e26d3 100%, rgba(62, 38, 211, 0) 100%) 2%;
+    border-image: linear-gradient(90deg, rgba(62, 38, 211, 0), #3e26d3 100%, rgba(62, 38, 211, 0) 100%) 2%
 }
 .masthead .section-footer {
     color: rgba(255, 255, 255, 0.6);
@@ -652,10 +654,10 @@ img.max {
 }
 a {
     text-decoration: none;
-    color: #207cdf;
+    color: #321db3;
     -webkit-transition: color .1s ease-out, border-color .1s ease-out, background-color .1s ease-out, background-image .1s ease-out;
     transition: color .1s ease-out, border-color .1s ease-out, background-color .1s ease-out, background-image .1s ease-out;
-    font-weight: 400;
+    font-weight: bold;
     -webkit-tap-highlight-color: rgba(32, 124, 223, 0.08)
 }
 a:hover,
@@ -789,7 +791,7 @@ body.hero>.main-nav {
     border-bottom-width: 1px;
     border-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 100%) 5%;
     border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 100%) 5%;
-    background: rgba(6, 21, 36, 0.99)
+    background: rgba(62, 38, 211, 0.95) 
 }
 .main-nav h1 {
     display: inline-block;
@@ -899,8 +901,8 @@ body.hero .main-nav h1 a {
     }
     .main-nav {
         margin-top: -3.8125rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem
+        padding-top: 0rem;
+        padding-bottom: 0rem
     }
     .main-nav h1 {
         font-size: 1.4375rem
@@ -908,7 +910,7 @@ body.hero .main-nav h1 a {
     .main-nav ul {
         margin-top: 1.0625rem;
         margin-left: -1rem;
-        margin-bottom: -1.0625rem !important;
+        margin-bottom: -4.5rem !important;
         padding-left: 1rem;
         margin-right: -1rem;
         border-top: 1px solid rgba(0, 0, 0, 0.06);
@@ -1384,7 +1386,7 @@ section.buy .h2 {
 }
 .hero .main-header .hero.hero,
 .hero .masthead .hero.hero {
-    margin-top: 2em
+    margin-top: 0em
 }
 @media screen and (max-width: 768px) {
     img.max {
@@ -1430,8 +1432,8 @@ section.buy .h2 {
 }
 */
 .bubble {
-	 background: rgba(255,255,255,0.7); 
-	 border-radius: 20px 20px 20px 20px;
+	 background: rgba(62,38,211,0.7); 
+	 border-radius: 5px 5px 5px 5px;
 	 padding: 30px;
 }
 
@@ -1445,8 +1447,8 @@ section.buy .h2 {
 
 .what-can-gyro-do {
 	text-align: left;
-	padding-left: 2.5em;
-	background-color: #a8ffca;
+	padding-left: 1em;
+	background-color: #3e26d3;
 }
 
 .what-can-gyro-do header {
@@ -1455,15 +1457,16 @@ section.buy .h2 {
 }
 
 .what-can-gyro-do .content {
-	margin-left: 5em;
+	margin-left: 0em;
 }
 
 .what-can-gyro-do .content h3 {
 	margin-bottom: 0em;
 }
-
+.organize h3{
+    margin-bottom: 0em;    }
 .stores {
-	padding: 1em;
+	padding: 0em;
 }
 .stores>div:nth-child(2) {
     margin-left: 2em;
@@ -1474,13 +1477,21 @@ section.buy .h2 {
 	padding-left: 1.5em;
 }
 
+.organize{
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    padding-right:3%;
+}
+
+
 .other-features header {
 	text-align: left;
 	margin-left: 0em;
 }
 
 .other-features .content {
-	margin-left: 8.5em;
+	margin-left: 0em;
 }
 
 .other-features .content h3 {
@@ -1490,7 +1501,7 @@ section.buy .h2 {
 	/*background-image: url('../gfx/gyro_open2.png');
     background-repeat:   no-repeat;
     background-position: center right;*/
-	background-color: #FFE16C;
+	background-color: #3e26d3;
 	padding-left: 3em;
 }
 .sensor-actuators li {
@@ -1504,24 +1515,32 @@ section.buy .h2 {
 
 .sensor-actuators h2 {
 	font-size: 1em;
+    margin-right: 1em;
+    margin-left: -1.5em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	opacity: 0.75;
-	background: #E5E5E5;
-	border-radius: 17px;
+	opacity: 1;
+	background: #321db3;
+	border-radius: 10px;
     padding: 10px 20px;
 }
 
 .ecosystem {
-	/*background-color: #F1F1F1;*/
+	/*background-color: #6a78e6;*/
 }
 
 .guiexception {
-	width: 150%;
+	width: 100%;
+    height: 16%;
+    margin-right: 10%;
+    margin-left: -10%;
+    margin-bottom: 10%;
+    padding: 10px 20px;
+    
 }
 
 .subscribe {
-    background-color: #61B3FF;
+    background-color: #4d35de;
 }
 
 .play-learn {
@@ -1590,7 +1609,7 @@ section.buy .h2 {
 /* custom mailchimp section */
 #mc_embed_signup {
     clear: left;
-    color: #000
+    color: #fff
 }
 #mc_embed_signup .clear {
     padding: 0 2rem;
