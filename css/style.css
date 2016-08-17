@@ -307,7 +307,7 @@ ul,
 ol,
 pre,
 blockquote {
-    margin: 0 0 2rem
+    /*margin: 0 0 2rem*/
 }
 p {
     word-wrap: break-word
@@ -394,8 +394,9 @@ small {
         flex-direction: column-reverse
     }
     .col {
-        margin-bottom: 05.3030303% !important;
-        margin-left: 05.3030303%
+        /*margin-bottom: 05.3030303% !important;
+        margin-left: 05.3030303%*/
+		margin: 1.25em 1.0em;
     }
     .row.center-v>.col {
         display: -webkit-box;
@@ -512,20 +513,15 @@ body {
 body>section {
     overflow: hidden
 }
-.wrapper {
-    margin: 30 auto;
-}
 section {
 	padding: 0px;
 }
 .slider {
 	padding-top: 1.125rem;
 }
-section .wrapper {
-    padding: 0rem 0
-}
-section .wrapper.extra {
-    padding: 6rem 0
+.wrapper {
+    padding-left: 1rem;
+	padding-right: 1rem;
 }
 body>section {
     background-color: #3e26d3;
@@ -571,9 +567,6 @@ section .section-header {
     color: rgba(255, 255, 255, 0.6);
     border-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 100%) 2%;
     border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0) 100%) 2%
-}
-.wrapper.extra .section-footer {
-    margin-bottom: -2.8125rem !important
 }
 body>section:nth-child(odd) .footer-title>span {
     background-color: #f9fafb
@@ -654,7 +647,7 @@ img.max {
 }
 a {
     text-decoration: none;
-    color: #321db3;
+    color: #ddd;
     -webkit-transition: color .1s ease-out, border-color .1s ease-out, background-color .1s ease-out, background-image .1s ease-out;
     transition: color .1s ease-out, border-color .1s ease-out, background-color .1s ease-out, background-image .1s ease-out;
     font-weight: bold;
@@ -663,7 +656,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #238cf6
+    color: #fff
 }
 a.highlight {
     color: rgba(255, 255, 255, 0.8)
@@ -1185,41 +1178,6 @@ body>section+footer {
 body>section:nth-child(even):last-of-type+footer {
     background: #fff
 }
-.main-footer small {
-    font-size: 1rem;
-    line-height: 1.5;
-    vertical-align: middle;
-    color: rgba(55, 61, 72, 0.8)
-}
-@media screen and (min-width: 768px) {
-    .main-footer {
-        text-align: right
-    }
-    .main-footer>.wrapper {
-        padding: 3rem 0;
-        overflow: hidden
-    }
-    .main-footer small {
-        float: left
-    }
-    .main-footer ul {
-        display: inline-block;
-        vertical-align: middle;
-        float: right
-    }
-    .main-footer li {
-        margin-left: 2rem
-    }
-}
-@media screen and (max-width: 767px) {
-    .main-footer small,
-    .main-footer a {
-        display: block;
-        margin: 0 -1rem 0 0;
-        padding: 1rem 0;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.03)
-    }
-}
 .stop-scrolling {
     overflow: hidden
 }
@@ -1448,6 +1406,7 @@ section.buy .h2 {
 .what-can-gyro-do {
 	text-align: left;
 	padding-left: 1em;
+	padding-right: 1em;
 	background-color: #3e26d3;
 }
 
@@ -1463,8 +1422,11 @@ section.buy .h2 {
 .what-can-gyro-do .content h3 {
 	margin-bottom: 0em;
 }
+
 .organize h3{
-    margin-bottom: 0em;    }
+    margin: 0em;
+}
+
 .stores {
 	padding: 0em;
 }
@@ -1476,14 +1438,6 @@ section.buy .h2 {
 	/*background-color: #FFE16C;*/
 	padding-left: 1.5em;
 }
-
-.organize{
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    padding-right:3%;
-}
-
 
 .other-features header {
 	text-align: left;
@@ -1559,15 +1513,15 @@ section.buy .h2 {
 	padding-top: 5em;
 }
 
-
 /* MailChimp Form Embed Code - Classic - 08/17/2011 */
-#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup form {display:block; position:relative; text-align:left; padding:1em 0 0 1em}
+#mc_embed_signup form h3 { padding: 0; margin: 0; }
+#mc_embed_signup input {border:1px solid #999; color: black; -webkit-appearance:none;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input[type=submit]{color: white;}
 #mc_embed_signup input:focus {border-color:#333;}
-#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
 #mc_embed_signup .button:hover {background-color:#777;}
 #mc_embed_signup .small-meta {font-size: 11px;}
 #mc_embed_signup .nowrap {white-space:nowrap;}
@@ -1652,4 +1606,13 @@ section.buy .h2 {
         float: left;
 		width:100%;
     }
+}
+
+.contact-icons {
+	font-size: 2em;
+	text-align: center;
+}
+
+.contact-icons span {
+	padding: 1em;
 }
