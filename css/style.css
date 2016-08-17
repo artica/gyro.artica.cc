@@ -34,11 +34,11 @@ section,
 summary {
     display: block;
 }
-
+/*
 .row {
     padding-bottom: 3.5em;
 }
-
+*/
 audio,
 canvas,
 progress,
@@ -372,8 +372,7 @@ small {
         display: -webkit-box;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: -5 !important
-
+        /*margin-bottom: -5 !important*/
     }
     .row.center-h,
     .col.center-h {
@@ -514,12 +513,13 @@ body>section {
     overflow: hidden
 }
 .wrapper {
-    max-width: 62.5rem;
     margin: 30 auto;
-
 }
 section {
-	padding: 0px
+	padding: 0px;
+}
+.slider {
+	padding-top: 1.125rem;
 }
 section .wrapper {
     padding: 0rem 0
@@ -1321,7 +1321,7 @@ section.buy .h2 {
         display: -webkit-box;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: -3rem !important
+        /*margin-bottom: -3rem !important*/
     }
     .companies.center-h,
     .awards.center-h {

@@ -14,7 +14,8 @@ jssor_1_slider_init = function() {
 	
 	var jssor_1_options = {
 	  $AutoPlay: true,
-	  $SlideDuration: 800,
+	  $Idle: 5000,
+	  $SlideDuration: 1000,
 	  $SlideEasing: $Jease$.$OutQuint,
 	  $CaptionSliderOptions: {
 		$Class: $JssorCaptionSlideo$,
