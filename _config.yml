@@ -1,0 +1,19 @@
+name: Gyro Website
+encoding: utf-8
+timezone: Europe/Lisbon
+disqus_shortname: "gyro_artica"
+url: "http://gyro.artica.cc/"
+use_leaflet: 1
+gems: [jekyll-paginate]
+description: "Gyro is an Edutainment Robot that is pre-programmed with many features: drawing, play sounds, remote control, and more."
+highlighter: rouge
+paginate: 5
+paginate_path: "blog/page/:num"
+timezone: Europe/Lisbon
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
