@@ -1274,82 +1274,6 @@ section.buy .h2 {
     z-index: 1;
     -webkit-font-smoothing: none
 }
-.awards {
-    margin-bottom: -3rem !important
-}
-@media screen and (max-width: 767px) {
-    .companies.row,
-    .awards.row {
-        display: -webkit-box;
-        display: flex;
-        flex-wrap: wrap;
-        /*margin-bottom: -3rem !important*/
-    }
-    .companies.center-h,
-    .awards.center-h {
-        -webkit-box-pack: center;
-        justify-content: center
-    }
-}
-.companies>.col,
-.awards>.col {
-    margin-bottom: 3rem !important;
-    margin-left: 0;
-    padding: 0 1.75rem
-}
-.companies img,
-.awards img {
-    display: block;
-    margin: 0 auto
-}
-.companies>.col>img {
-    height: 34px;
-    width: auto
-}
-.awards img {
-    height: 39px;
-    width: auto
-}
-.testimonials {
-    margin-top: 5rem;
-    padding-bottom: 2.875rem;
-    position: relative;
-    color: rgba(55, 61, 72, 0.8)
-}
-.testimonials p {
-    margin: 0;
-    display: inline
-}
-.testimonials footer {
-    position: absolute;
-    bottom: -2.875rem
-}
-.testimonials img {
-    vertical-align: middle;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 10rem
-}
-.hero section.first {
-    background: transparent url(images/home/rainbow.svg) center bottom no-repeat;
-    padding-bottom: 7.5rem
-}
-.hero .main-header,
-.hero .masthead {
-    background: none;
-    background-color: transparent
-}
-.hero .main-header .section-footer,
-.hero .masthead .section-footer {
-    border-image: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: .8125rem
-}
-.hero .main-header .hero.hero,
-.hero .masthead .hero.hero {
-    margin-top: 0em
-}
 @media screen and (max-width: 768px) {
     img.max {
         display: block;
@@ -1690,10 +1614,25 @@ padding-left: 2em;
 }
 
 .prices .content {
-    margin: 0em 6em;
+	margin: 1rem auto 1rem;
 }
 
-.prices td {
-	vertical-align: top;
-	width: 25%;
+.courses {
+	background-image: url('../gfx/GYRO_WKS.jpg');
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+	padding-top: 5em;
+}
+
+.courses a {
+	text-decoration: underline;
+}
+
+.making-the-maker a {
+	text-decoration: underline;
+}
+
+.teacher-maker a {
+	text-decoration: underline;
 }
